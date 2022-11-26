@@ -5,7 +5,7 @@ int main(){
 int tentativa, computador, jogador=0, vitoria_computador=0, op=1;
   while(op == 1){
     srand(time(NULL)); // semente do número aleatório
-    computador = 1 + rand() % 5; // faixa de numeros aleatórios de 1 até 3
+    computador = 1 + rand() % 5; // faixa de numeros aleatórios de 1 até 5
     printf("\nescolha uma opção: 1.PEDRA 2.PAPEL 3.TESOURA 4.LAGARTO 5.SPOCK\n");
     scanf("%d", &tentativa);
   while(tentativa<1 || tentativa>5){
